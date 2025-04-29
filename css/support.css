@@ -18,7 +18,7 @@ header{
          background-color: #8fbd4f;
          border-radius: 7px;
          color: white;
-         padding: 10px 20px;
+         padding: 10px 15px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
@@ -28,11 +28,61 @@ header{
       }
 }
 
+form {
+    border: 2px solid #0b5141;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* optional */
+}
+
+.title h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 main {
+    margin-top: 0px;
+    margin-left: 20px;
     font-size: 15px;
     padding: 13px;
+    font-family: Verdana, sans-serif;
+    line-height: 2;
+}
+
+select {
+    width:300px
+}
+
+input[type=email]{
+    width:200px
+}
+
+input[type=text]{
+    width: 230px;
+}
+
+input, select {
+    border-radius: 5px;
+    background-color: #dfe2d2;
+    font-family: Verdana,sans-serif;
+    border-color:#dfe2d2;
+}
+
+select {
+    width:270px
+}
+
+input[type=submit] {
+    padding:5px;
+    background-color: #8fbd4f;
+    color:white;
+    font-size: 15px;
     text-align: center;
 }
+
 
 img {
     max-width: 100%;

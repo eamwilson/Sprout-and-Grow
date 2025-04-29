@@ -13,12 +13,27 @@
         <a href="about.html">About</a>
         <a href="products.html">Plants</a>
         <a href="events.html">Events</a>
-        <a href="support.html">Support</a>
+        <a href="support.html">Register</a>
     </nav>
     </header>
 
     <main>
-        <!-- Home page main content goes here: hero image, intro text, etc. -->
+        <section class="title">
+        <h1> Register For Events</h1>
+    </section>
+        <form id="registration" method="post" action="">
+            <label for="name"> Full Name: </label><input type="text" name="name" id="name"> <br>
+            <label for="email"> Email Address:  <input type="email" name="email" id="email"> <br>
+            <label for="number"> Number of Participants:  </label><input type="number" name="number" id="number" min="1" max="12"> <br>
+            <label for="event-selection"> Event: </label>
+            <select name="event-selection" id="event-selection">
+                <option value="select event"> Select Event</option>
+                <option value="organic-gardening"> Organic Gardening 101: Beginner’s Class</option>
+                <option value="greenhouse-tour"> Greenhouse Tours: Behind the Roots</option>
+                <option value="garden-kids"> Kids in the Garden: Family Day at the Nursery</option>
+            </select> <br> <br>
+            <input type="submit" value="Register"> 
+        </form>
     </main>
     
     <footer>
@@ -28,7 +43,7 @@
             <a href="about.html">About</a> <br>
             <a href="products.html">Plants</a> <br>
             <a href="events.html">Events</a> <br>
-            <a href="support.html">Support</a> <br>
+            <a href="support.html">Register</a> <br>
         </div>
         <div class="footlocate"><h2>
             Location </h2><br>

@@ -18,7 +18,7 @@ header{
          background-color: #8fbd4f;
          border-radius: 7px;
          color: white;
-         padding: 10px 20px;
+         padding: 10px 15px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
@@ -29,9 +29,51 @@ header{
 }
 
 main {
-    font-size: 15px;
+    font-size: 20px;
     padding: 13px;
     text-align: center;
+}
+
+.events-header h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: .3em
+}
+
+.events-header h1  {
+    margin-top: 0em;
+    margin-bottom: 35px;
+}
+
+.events h1 {
+    margin-top: 0px;
+    font-size: large;
+    text-align: left;
+    color: #8fbd4f;
+    margin-bottom:.2em;
+}
+
+.events h2 {
+    margin-top: .3em;
+    font-size: medium;
+    font-weight: 500;
+    color: #8fbd4f;
+    text-align: left;
+    margin-bottom: .3em
+}
+
+.events h3 {
+    margin-top: 0em;
+    font-size: large;
+    text-align: left;
+    margin-bottom: .6em;
+}
+
+.events p {
+    margin-top: .3em;
+    font-size: 15px;
+    text-align: left;
 }
 
 img {
