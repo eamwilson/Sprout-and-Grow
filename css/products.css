@@ -127,6 +127,11 @@ footer {
       margin-top: 0px;
   }
 
+  .footcontact p {
+    font-size: small;
+    line-height: 2ch;
+}
+
   .socials {
       margin-top: 10px;
       width: 30px;
